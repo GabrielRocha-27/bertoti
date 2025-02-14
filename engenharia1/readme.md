@@ -1,4 +1,6 @@
-## Texto 1. 
+# Engenharias de Software e Programação
+
+## Texto 1 - Definindo Engenharia de Software
 What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”? And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?
  
 The terms “programming” and “software engineering” have been used interchangeably for quite some time in our industry, although each term has a different emphasis and different implications. University students tend to study computer science and get jobs writing code as “programmers.”
@@ -7,10 +9,20 @@ The terms “programming” and “software engineering” have been used interc
  
 Unlike those more established engineering professions, current software engineering theory or practice is not nearly as rigorous. Aeronautical engineers must follow rigid guidelines and practices, because errors in their calculations can cause real damage; programming, on the whole, has traditionally not followed such rigorous practices. But, as software becomes more integrated into our lives, we must adopt and rely on more rigorous engineering methods. We hope this book helps others see a path toward more reliable software practices.
 
+1. -> A engenharia de software envolve mais do que apenas escrever código. Ela inclui a criação de sistemas complexos e confiáveis, utilizando princípios de engenharia. Embora o termo "programação" tenha sido usado de forma intercambiável com "engenharia de software" ao longo do tempo, há uma diferença importante. A programação se concentra na criação de código, enquanto a engenharia de software abrange todo o processo de desenvolvimento de um sistema, desde o planejamento até a manutenção.
 
-1. -> O texto explica que, enquanto a programação se refere a escrever código, a engenharia de software envolve criar sistemas mais complexos e confiáveis, usando princípios de engenharia. A ciência da computação é a base teórica por trás disso tudo. O Google tem uma visão única sobre engenharia de software devido à sua experiência com sistemas em grande escala e práticas inovadoras.
+Além disso, a engenharia de software é vista como a aplicação de conhecimento teórico para construir algo real, embora menos tangível do que outros campos de engenharia, como a engenharia mecânica ou civil. Ao contrário de outras áreas de engenharia, a prática de engenharia de software não é tão rigorosa, mas à medida que o software se torna mais integrado às nossas vidas, é necessário adotar métodos de engenharia mais rigorosos.
 
-## Texto 2. 
+O Google, com sua experiência em sistemas de grande escala e práticas inovadoras, oferece uma perspectiva única sobre engenharia de software, buscando mais confiabilidade nas práticas de desenvolvimento de software.
+
+### Resumo:
+- **Programação**: Foco em escrever código.
+- **Engenharia de Software**: Criação de sistemas robustos e sustentáveis com base em princípios de engenharia.
+- **Ciência da Computação**: Fundamentos teóricos que sustentam a programação e a engenharia de software.
+
+---
+
+## Texto 2 - Programação ao Longo do Tempo
 Programming Over Time
 We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.
  
@@ -25,15 +37,40 @@ Scale and Growth
 How an organization will need to adapt as it evolves
  
 Trade-offs and Costs
-How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth. ***
+How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth.
 
-2. -> O texto destaca que a engenharia de software envolve mais do que escrever código, incluindo a manutenção e adaptação do código ao longo do tempo. O Google compartilha sua experiência para ajudar a tornar o código mais sustentável. Os três princípios principais são: adaptar o código às mudanças, crescer conforme a organização evolui e tomar decisões equilibrando custos e trade-offs.
+A engenharia de software vai além da simples escrita de código. Ela envolve todos os processos e ferramentas utilizadas para construir e manter o código ao longo do tempo. A principal questão aqui é como garantir que o código seja valioso a longo prazo, sustentável e capaz de se adaptar às mudanças.
 
-## Tradeoffs
-(Compensações)
-1. Linguagem de programação:
-Qual seria a Linguagem de programação ideia para determinada função, por exemplo, python é mais facil de aprender e programar, porem java é mais dificil, mas tem um desempenho melhor.
-2. Segurança:
-Aplicar fortes medidas de segurança pode dificultar a experiencia do usuario, porem quanto mais segurança menor é o numero de ataques.
-3. Custo vs Qualidade:
-Reduzir custo pode pode ser vantajoso a curto prazo, porem gera no futuro mais problemas tecnicos que ira custar mais.
+Um ponto fundamental abordado no livro é a ideia de que a engenharia de software pode ser vista como "programação integrada ao longo do tempo". O código precisa ser sustentável, reagindo de forma eficaz às mudanças necessárias durante seu ciclo de vida, desde sua concepção até sua descontinuação.
+
+### Três Princípios Fundamentais:
+1. **Tempo e Mudança**: O código precisa ser adaptável ao longo do tempo.
+2. **Escala e Crescimento**: A organização precisa evoluir à medida que o software cresce.
+3. **Compensações e Custos**: A organização deve equilibrar decisões com base nos princípios de tempo, mudança, escala e crescimento.
+
+### Resumo:
+O texto destaca que a engenharia de software envolve mais do que escrever código, incluindo a manutenção e adaptação do código ao longo do tempo. O Google compartilha sua experiência para ajudar a tornar o código mais sustentável. Os três princípios principais são: adaptar o código às mudanças, crescer conforme a organização evolui e tomar decisões equilibrando custos e trade-offs.
+
+---
+
+## Trade-offs (Compensações)
+
+Durante o desenvolvimento de software, os engenheiros precisam tomar decisões que envolvem trade-offs, isto é, escolher entre opções que trazem diferentes benefícios e desafios. Aqui estão alguns exemplos de trade-offs comuns:
+
+### 1. Linguagem de Programação:
+- **Exemplo**: Python é mais fácil de aprender e programar, mas Java oferece melhor desempenho.
+  - **Trade-off**: Facilitar a aprendizagem pode comprometer a performance a longo prazo, enquanto optar por uma linguagem de alto desempenho pode ser mais difícil de aprender.
+
+### 2. Segurança:
+- **Exemplo**: Aplicar fortes medidas de segurança pode dificultar a experiência do usuário.
+  - **Trade-off**: A segurança mais robusta reduz o risco de ataques, mas pode tornar o sistema menos acessível ou intuitivo para os usuários.
+
+### 3. Custo vs Qualidade:
+- **Exemplo**: Reduzir custos pode ser vantajoso no curto prazo.
+  - **Trade-off**: No longo prazo, isso pode resultar em mais problemas técnicos, que terão um custo maior para corrigir.
+
+---
+
+## Conclusão
+
+A engenharia de software é uma disciplina complexa e em evolução. A chave para garantir que o software seja sustentável e adaptável ao longo do tempo é a integração de práticas rigorosas e o equilíbrio entre as compensações que surgem no desenvolvimento de sistemas. O Google, com sua experiência em ambientes de grande escala, oferece uma valiosa perspectiva sobre como navegar essas questões.
