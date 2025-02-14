@@ -28,3 +28,12 @@ Trade-offs and Costs
 How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth. ***
 
 2. -> O texto destaca que a engenharia de software envolve mais do que escrever código, incluindo a manutenção e adaptação do código ao longo do tempo. O Google compartilha sua experiência para ajudar a tornar o código mais sustentável. Os três princípios principais são: adaptar o código às mudanças, crescer conforme a organização evolui e tomar decisões equilibrando custos e trade-offs.
+
+## Tradeoffs
+(Compensações)
+1. Linguagem de programação:
+Qual seria a Linguagem de programação ideia para determinada função, por exemplo, python é mais facil de aprender e programar, porem java é mais dificil, mas tem um desempenho melhor.
+2. Segurança:
+Aplicar fortes medidas de segurança pode dificultar a experiencia do usuario, porem quanto mais segurança menor é o numero de ataques.
+3. Custo vs Qualidade:
+Reduzir custo pode pode ser vantajoso a curto prazo, porem gera no futuro mais problemas tecnicos que ira custar mais.
