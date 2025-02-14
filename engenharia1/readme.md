@@ -11,10 +11,6 @@ Unlike those more established engineering professions, current software engineer
 
 1. -> A engenharia de software envolve mais do que apenas escrever código. Ela inclui a criação de sistemas complexos e confiáveis, utilizando princípios de engenharia. Embora o termo "programação" tenha sido usado de forma intercambiável com "engenharia de software" ao longo do tempo, há uma diferença importante. A programação se concentra na criação de código, enquanto a engenharia de software abrange todo o processo de desenvolvimento de um sistema, desde o planejamento até a manutenção.
 
-Além disso, a engenharia de software é vista como a aplicação de conhecimento teórico para construir algo real, embora menos tangível do que outros campos de engenharia, como a engenharia mecânica ou civil. Ao contrário de outras áreas de engenharia, a prática de engenharia de software não é tão rigorosa, mas à medida que o software se torna mais integrado às nossas vidas, é necessário adotar métodos de engenharia mais rigorosos.
-
-O Google, com sua experiência em sistemas de grande escala e práticas inovadoras, oferece uma perspectiva única sobre engenharia de software, buscando mais confiabilidade nas práticas de desenvolvimento de software.
-
 ### Resumo:
 - **Programação**: Foco em escrever código.
 - **Engenharia de Software**: Criação de sistemas robustos e sustentáveis com base em princípios de engenharia.
@@ -39,9 +35,7 @@ How an organization will need to adapt as it evolves
 Trade-offs and Costs
 How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth.
 
-A engenharia de software vai além da simples escrita de código. Ela envolve todos os processos e ferramentas utilizadas para construir e manter o código ao longo do tempo. A principal questão aqui é como garantir que o código seja valioso a longo prazo, sustentável e capaz de se adaptar às mudanças.
-
-Um ponto fundamental abordado no livro é a ideia de que a engenharia de software pode ser vista como "programação integrada ao longo do tempo". O código precisa ser sustentável, reagindo de forma eficaz às mudanças necessárias durante seu ciclo de vida, desde sua concepção até sua descontinuação.
+2. -> A engenharia de software vai além da simples escrita de código. Ela envolve todos os processos e ferramentas utilizadas para construir e manter o código ao longo do tempo. A principal questão aqui é como garantir que o código seja valioso a longo prazo, sustentável e capaz de se adaptar às mudanças. Um ponto fundamental abordado no livro é a ideia de que a engenharia de software pode ser vista como "programação integrada ao longo do tempo". O código precisa ser sustentável, reagindo de forma eficaz às mudanças necessárias durante seu ciclo de vida, desde sua concepção até sua descontinuação.
 
 ### Três Princípios Fundamentais:
 1. **Tempo e Mudança**: O código precisa ser adaptável ao longo do tempo.
