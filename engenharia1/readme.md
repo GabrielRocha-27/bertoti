@@ -68,3 +68,9 @@ Durante o desenvolvimento de software, os engenheiros precisam tomar decisões q
 ## Conclusão
 
 A engenharia de software é uma disciplina complexa e em evolução. A chave para garantir que o software seja sustentável e adaptável ao longo do tempo é a integração de práticas rigorosas e o equilíbrio entre as compensações que surgem no desenvolvimento de sistemas. O Google, com sua experiência em ambientes de grande escala, oferece uma valiosa perspectiva sobre como navegar essas questões.
+
+---
+
+# Comentario slide 57
+
+O essencial é entregar um produto validado e que agregue valor, permitindo aprimoramentos contínuos ao longo do desenvolvimento do projeto e das suas respectivas entregas.
