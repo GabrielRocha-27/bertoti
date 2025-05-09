@@ -74,3 +74,5 @@ A engenharia de software é uma disciplina complexa e em evolução. A chave par
 # Comentario slide 57
 
 O essencial é entregar um produto validado e que agregue valor, permitindo aprimoramentos contínuos ao longo do desenvolvimento do projeto e das suas respectivas entregas.
+
+![Image](https://github.com/user-attachments/assets/5a42a662-afbd-4a4a-9f2e-a0291d44cf2d)
