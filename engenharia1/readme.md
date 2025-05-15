@@ -116,57 +116,54 @@ package estoque;
 import java.util.List;
 import java.util.LinkedList;
 
+public class Estoque {
 
+    private List<Produto> produtos = new LinkedList<Produto>(); // nome correto: produtos
 
-public class Estoque extends Produto {//classe sub letra maiu
-	
-	private List<Produto> produto = new LinkedList<Produto>(); //atrib sub minus
-	
-	public void addProduto(Produto produto) {
-		produtos.add(produto);
-	}
-	
-	public Produto buscarProdutoCodigo(int codigo) {
-		for(Produto produto: produtos) {
-			if(produto.getCodigo().equals(codigo)) return produto;
-		}
-		return null;
-	}
-	
-	public List<Produto> buscarProdutoNome(String nome){
-		List<Produto> encontrados = new LinkedList<Produto>();
-		for(Produto produto: produtos) {
-			if(produto.getNome().equals(nome)) encontrados.add(produto);
-		}
-		return encontrados;
-	}
-	
-	public List<Produto> getProdutos(){//met verb minus
-		return produtos;
-	}
+    public void addProduto(Produto produto) {
+        produtos.add(produto);
+    }
+
+    public Produto buscarProdutoCodigo(int codigo) {
+        for (Produto produto : produtos) {
+            if (produto.getCodigo() == codigo) {
+                return produto;
+            }
+        }
+        return null;
+    }
+
+    public List<Produto> buscarProdutoNome(String nome) {
+        List<Produto> encontrados = new LinkedList<Produto>();
+        for (Produto produto : produtos) {
+            if (produto.getNome().equalsIgnoreCase(nome)) {
+                encontrados.add(produto);
+            }
+        }
+        return encontrados;
+    }
+
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
 }
 ---
 package estoque;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 class Teste {
 
-	@Test
-	void test() {
-		
-		Estoque estoque = new Estoque();
-		estoque.addProduto(new Produto("Martelo", "01010123"));
-		estoque.addProduto(new Produto("Parafuso 2mm", "12345678"));
-		
-		assertEquals(estoque.getProdutos().size(), 2);
-		
-		Produto produto = estoque.buscarProdutoCodigo("01010123");
-		
-		assertEquals(produto.getNome(), "Parafuso 2mm");
-		
-	}
+    @Test
+    void test() {
+        Estoque estoque = new Estoque();
+        estoque.addProduto(new Produto("Martelo", 1010123));
+        estoque.addProduto(new Produto("Parafuso 2mm", 12345678));
 
+        assertEquals(estoque.getProdutos().size(), 2);
+
+        Produto produto = estoque.buscarProdutoCodigo(12345678);
+        assertEquals(produto.getNome(), "Parafuso 2mm");
+    }
 }
