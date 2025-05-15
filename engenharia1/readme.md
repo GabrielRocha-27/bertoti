@@ -78,92 +78,13 @@ O essencial é entregar um produto validado e que agregue valor, permitindo apri
 ![Image](https://github.com/user-attachments/assets/5a42a662-afbd-4a4a-9f2e-a0291d44cf2d)
 
 ---
-## Projeto em Java
+## Projeto em Java Package at_bertoti
 
-package estoque;
-
-public class Produto  {
-	
-	private String nome;
-	private int codigo;
-	
-	
-	
-	public Produto(String nome, int codigo) {
-		this.nome = nome;
-		this.codigo = codigo;
-	}
-	
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public int getCodigo() {
-		return codigo;
-	}
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
-	}
-	
-	
-}
 
 ---
 package estoque;
 
-import java.util.List;
-import java.util.LinkedList;
 
-public class Estoque {
-
-    private List<Produto> produtos = new LinkedList<Produto>(); // nome correto: produtos
-
-    public void addProduto(Produto produto) {
-        produtos.add(produto);
-    }
-
-    public Produto buscarProdutoCodigo(int codigo) {
-        for (Produto produto : produtos) {
-            if (produto.getCodigo() == codigo) {
-                return produto;
-            }
-        }
-        return null;
-    }
-
-    public List<Produto> buscarProdutoNome(String nome) {
-        List<Produto> encontrados = new LinkedList<Produto>();
-        for (Produto produto : produtos) {
-            if (produto.getNome().equalsIgnoreCase(nome)) {
-                encontrados.add(produto);
-            }
-        }
-        return encontrados;
-    }
-
-    public List<Produto> getProdutos() {
-        return produtos;
-    }
-}
 ---
 package estoque;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
-
-class Teste {
-
-    @Test
-    void test() {
-        Estoque estoque = new Estoque();
-        estoque.addProduto(new Produto("Martelo", 1010123));
-        estoque.addProduto(new Produto("Parafuso 2mm", 12345678));
-
-        assertEquals(estoque.getProdutos().size(), 2);
-
-        Produto produto = estoque.buscarProdutoCodigo(12345678);
-        assertEquals(produto.getNome(), "Parafuso 2mm");
-    }
-}
