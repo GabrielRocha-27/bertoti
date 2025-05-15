@@ -78,13 +78,118 @@ O essencial é entregar um produto validado e que agregue valor, permitindo apri
 ![Image](https://github.com/user-attachments/assets/5a42a662-afbd-4a4a-9f2e-a0291d44cf2d)
 
 ---
-## Projeto em Java Package at_bertoti
+## Projeto em Java  -  Package at_bertoti
 
+package at_bertoti;
+
+public class Produto {
+    private String nome;
+    private int codigo;
+
+    public Produto(String nome, int codigo) {
+	this.nome = nome;
+	this.codigo = codigo;
+    }
+
+    public String getNome() {
+	return nome;
+    }
+    public void setNome(String nome) {
+	this.nome = nome;
+    }
+    public int getCodigo() {
+	return codigo;
+    }
+    public void setCodigo(int codigo) {
+	this.codigo = codigo;
+    }
+}
 
 ---
-package estoque;
 
+package at_bertoti;
+
+import java.util.List; import java.util.LinkedList;
+
+public class Estoque {
+    private List<Produto> produtos = new LinkedList<Produto>(); // nome correto: produtos
+
+    public void addProduto(Produto produto) {
+        produtos.add(produto);
+    }
+
+    public Produto buscarProdutoCodigo(int codigo) {
+        for (Produto produto : produtos) {
+            if (produto.getCodigo() == codigo) {
+                return produto;
+            }
+        }
+        return null;
+    }
+
+    public List<Produto> buscarProdutoNome(String nome) {
+        List<Produto> encontrados = new LinkedList<Produto>();
+        for (Produto produto : produtos) {
+            if (produto.getNome().equalsIgnoreCase(nome)) {
+                encontrados.add(produto);
+            }
+        }
+        return encontrados;
+    }
+
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
+}
 
 ---
-package estoque;
+
+package at_bertoti;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+public class Testee {
+    
+    @Test
+    public void testee() {
+        Estoque estoque = new Estoque();
+        estoque.addProduto(new Produto("Martelo", 1010123));
+        estoque.addProduto(new Produto("Parafuso 2mm", 12345678));
+
+        assertEquals(2, estoque.getProdutos().size());
+
+        Produto produto = estoque.buscarProdutoCodigo(12345678);
+        assertEquals("Parafuso 2mm", produto.getNome());
+    }
+}
+
+---
+
+package at_bertoti;
+
+public class Main {
+    public static void main(String[] args) {
+        Estoque estoque = new Estoque();
+
+        Produto p1 = new Produto("Martelo", 1010123);
+        Produto p2 = new Produto("Parafuso 2mm", 12345678);
+
+        estoque.addProduto(p1);
+        estoque.addProduto(p2);
+
+        System.out.println("Produtos no estoque:");
+        for (Produto p : estoque.getProdutos()) {
+            System.out.println("Nome: " + p.getNome() + " | Código: " + p.getCodigo());
+        }
+
+        int codigoBuscado = 12345678;
+        Produto encontrado = estoque.buscarProdutoCodigo(codigoBuscado);
+        if (encontrado != null) {
+            System.out.println("\nProduto encontrado com código " + codigoBuscado + ": " + encontrado.getNome());
+        } else {
+            System.out.println("\nProduto com código " + codigoBuscado + " não encontrado.");
+        }
+    }
+}
 
