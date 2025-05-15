@@ -109,10 +109,11 @@ public class Produto {
 
 package at_bertoti;
 
-import java.util.List; import java.util.LinkedList;
+import java.util.List;
+import java.util.LinkedList;
 
 public class Estoque {
-    private List<Produto> produtos = new LinkedList<Produto>(); // nome correto: produtos
+    private List<Produto> produtos = new LinkedList<Produto>();
 
     public void addProduto(Produto produto) {
         produtos.add(produto);
@@ -149,10 +150,10 @@ package at_bertoti;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class Testee {
+public class Teste {
     
     @Test
-    public void testee() {
+    public void teste() {
         Estoque estoque = new Estoque();
         estoque.addProduto(new Produto("Martelo", 1010123));
         estoque.addProduto(new Produto("Parafuso 2mm", 12345678));
