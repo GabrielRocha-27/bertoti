@@ -67,7 +67,7 @@ Durante o desenvolvimento de software, os engenheiros precisam tomar decisões q
 - **Exemplo**: Reduzir custos pode ser vantajoso no curto prazo.
   - **Trade-off**: No longo prazo, isso pode resultar em mais problemas técnicos, que terão um custo maior para corrigir.
 
----
+--
 
 ## Conclusão
 
