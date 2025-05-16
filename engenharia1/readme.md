@@ -1,5 +1,7 @@
 # Engenharias de Software e Programação
 
+# Atividade 1
+
 ## Texto 1 - Definindo Engenharia de Software
 What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”? And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?
  
@@ -17,6 +19,7 @@ Unlike those more established engineering professions, current software engineer
 - **Ciência da Computação**: Fundamentos teóricos que sustentam a programação e a engenharia de software.
 
 ---
+# Atividade 2
 
 ## Texto 2 - Programação ao Longo do Tempo
 Programming Over Time
@@ -46,6 +49,7 @@ How an organization makes decisions, based on the lessons of Time and Change and
 O texto destaca que a engenharia de software envolve mais do que escrever código, incluindo a manutenção e adaptação do código ao longo do tempo. O Google compartilha sua experiência para ajudar a tornar o código mais sustentável. Os três princípios principais são: adaptar o código às mudanças, crescer conforme a organização evolui e tomar decisões equilibrando custos e trade-offs.
 
 ---
+# Atividade 3
 
 ## Trade-offs (Compensações)
 
@@ -70,6 +74,7 @@ Durante o desenvolvimento de software, os engenheiros precisam tomar decisões q
 A engenharia de software é uma disciplina complexa e em evolução. A chave para garantir que o software seja sustentável e adaptável ao longo do tempo é a integração de práticas rigorosas e o equilíbrio entre as compensações que surgem no desenvolvimento de sistemas. O Google, com sua experiência em ambientes de grande escala, oferece uma valiosa perspectiva sobre como navegar essas questões. O importante é ter um sistema de ponto a ponto simples (sistema completo) de começo e não partes de um sistema e "juntar". 
 
 ---
+# Atividade 4
 
 # Comentario slide 57
 
@@ -78,6 +83,8 @@ O essencial é entregar um produto validado e que agregue valor, permitindo apri
 ![Image](https://github.com/user-attachments/assets/5a42a662-afbd-4a4a-9f2e-a0291d44cf2d)
 
 ---
+# Atividade 5
+
 ## Projeto em Java  -  Package at_bertoti
 
 package at_bertoti;
