@@ -40,6 +40,7 @@ spring.datasource.password=sua-senha
 spring.jpa.hibernate.ddl-auto=update
 
 O ddl-auto=update faz o Hibernate criar/atualizar automaticamente as tabelas com base nas Entities.
+```
 
 ### 6. Supabase (PostgreSQL)
 
