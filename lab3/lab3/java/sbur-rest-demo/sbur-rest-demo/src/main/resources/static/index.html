@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciador de Ferramentas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Gerenciador de Ferramentas</h1>
+
+<div id="ferramentas-lista">
+    <!-- Lista de ferramentas será preenchida pelo JS -->
+</div>
+
+<h2>Adicionar Ferramenta</h2>
+<form id="form-ferramenta">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="number" id="lote" placeholder="Lote" required>
+    <input type="number" id="dificuldade" placeholder="Dificuldade (1-5)" min="1" max="5" required>
+    <button type="submit">Adicionar</button>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
