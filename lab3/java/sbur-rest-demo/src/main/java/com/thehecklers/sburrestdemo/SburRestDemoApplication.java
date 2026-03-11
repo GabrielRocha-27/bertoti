@@ -16,94 +16,13 @@ import java.util.UUID;
 @SpringBootApplication
 public class SburRestDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SburRestDemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SburRestDemoApplication.class, args);
+    }
 
 }
 
-@RestController
-@RequestMapping("/coffees")
-class RestApiDemoController {
-	private final List<Coffee> coffees = new ArrayList<>();
 
-	public RestApiDemoController() {
-		coffees.addAll(List.of(
-				new Coffee("Café Cereza"),
-				new Coffee("Café Ganador"),
-				new Coffee("Café Lareño"),
-				new Coffee("Café Três Pontas")
-		));
-	}
-
-	@GetMapping
-	Iterable<Coffee> getCoffees() {
-		return coffees;
-	}
-
-	@GetMapping("/{id}")
-	Optional<Coffee> getCoffeeById(@PathVariable String id) {
-		for (Coffee c: coffees) {
-			if (c.getId().equals(id)) {
-				return Optional.of(c);
-			}
-		}
-
-		return Optional.empty();
-	}
-
-	@PostMapping
-	Coffee postCoffee(@RequestBody Coffee coffee) {
-		coffees.add(coffee);
-		return coffee;
-	}
-
-	@PutMapping("/{id}")
-	ResponseEntity<Coffee> putCoffee(@PathVariable String id,
-									 @RequestBody Coffee coffee) {
-		int coffeeIndex = -1;
-
-		for (Coffee c: coffees) {
-			if (c.getId().equals(id)) {
-				coffeeIndex = coffees.indexOf(c);
-				coffees.set(coffeeIndex, coffee);
-			}
-		}
-
-		return (coffeeIndex == -1) ?
-				new ResponseEntity<>(postCoffee(coffee), HttpStatus.CREATED) :
-				new ResponseEntity<>(coffee, HttpStatus.OK);
-	}
-
-	@DeleteMapping("/{id}")
-	void deleteCoffee(@PathVariable String id) {
-		coffees.removeIf(c -> c.getId().equals(id));
-	}
-}
-
-class Coffee {
-	private final String id;
-	private String name;
-
-	@JsonCreator
-	public Coffee(@JsonProperty("id") String id, @JsonProperty("name") String name) {
-		this.id = id;
-		this.name = name;
-	}
-
-	public Coffee(String name) {
-		this(UUID.randomUUID().toString(), name);
-	}
-
-	public String getId() {
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-}
+// link front: http://localhost:8080/index.html (inclui no bd e edita por ele)
+// link banco Supabase: https://supabase.com/dashboard/project/zpnjqauzwaletryniwzu/editor/17497?schema=public
+// link postman: https://gabrielhenrique-1738035.postman.co/workspace/769de87d-958b-4699-8451-17b97a975015/request/create?requestId=bb47cc2a-3b09-4b3c-8729-d96c87aea8e1
