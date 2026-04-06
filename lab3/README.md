@@ -1,4 +1,4 @@
-# Projeto Spring Boot com Supabase
+# Projeto Spring Boot com Docker
 
 Este projeto é uma API REST para gerenciar ferramentas, conectada a um banco de dados Supabase (PostgreSQL).
 
