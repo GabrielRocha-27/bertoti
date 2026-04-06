@@ -1,6 +1,6 @@
 # Projeto Spring Boot com Postman
 
-Este projeto é uma API REST para gerenciar ferramentas, conectada a um banco de dados Supabase (PostgreSQL).
+Este projeto é uma API REST para gerenciar ferramentas, conectada a um banco de dados no Postman.
 
 ---
 
