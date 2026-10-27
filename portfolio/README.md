@@ -95,7 +95,7 @@ Minhas principais atividades foram:
 
 #### 🔗 Repositório
 
-[**Acessar o repositório do projeto**](INSIRA_AQUI_O_LINK_DO_REPOSITORIO)
+[**Acessar o repositório do projeto**](https://github.com/Omega-Tech-API/API)
 
 ---
 
