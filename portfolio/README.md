@@ -14,7 +14,7 @@ Atualmente, sigo me aprofundando em desenvolvimento de software, bancos de dados
 
 ---
 
-## 🛠️ Principais Conhecimentos
+## Principais Conhecimentos
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
@@ -36,9 +36,9 @@ Atualmente, sigo me aprofundando em desenvolvimento de software, bancos de dados
 
 ---
 
-## 🚀 Projetos Acadêmicos
+## Projetos Acadêmicos
 
-### 📌 1º Semestre — Ômega Tech
+### 1º Semestre — Ômega Tech
 
 **Instituição:** Fatec
 
@@ -48,15 +48,15 @@ Atualmente, sigo me aprofundando em desenvolvimento de software, bancos de dados
 
 <!-- 📸 Inserir aqui uma imagem ou captura de tela do projeto -->
 
-#### 🎯 Desafio
+#### Desafio
 
 Apresentar os conceitos e a aplicação prática dos métodos ágeis, utilizando o Scrum como tema central. A proposta era criar um ambiente educativo que facilitasse o acesso aos conteúdos e permitisse avaliar a retenção do conhecimento.
 
-#### 💡 Solução Desenvolvida
+#### Solução Desenvolvida
 
 A equipe desenvolveu uma plataforma web interativa com conteúdos organizados sobre a metodologia Scrum. Ao final de cada módulo, os usuários podiam responder a questionários para verificar o aprendizado e reforçar os conceitos apresentados.
 
-#### 💻 Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 
 - **Python:** desenvolvimento da lógica do backend.
 - **Flask:** desenvolvimento da aplicação web e integração entre o backend e as páginas da aplicação.
@@ -67,7 +67,7 @@ A equipe desenvolveu uma plataforma web interativa com conteúdos organizados so
 - **Figma:** criação de protótipos e planejamento visual da interface.
 - **Git e GitHub:** controle de versão e colaboração durante o desenvolvimento.
 
-#### 👨‍💻 Minhas Contribuições
+#### Minhas Contribuições
 
 Atuei como desenvolvedor, participando tanto da pesquisa e definição das regras de negócio quanto da implementação da interface da aplicação.
 
@@ -78,7 +78,7 @@ Minhas principais atividades foram:
 - **Implantação da aplicação:** utilização de uma instância virtual na AWS para disponibilizar o sistema.
 - **Colaboração com a equipe:** participação nas discussões e no desenvolvimento das funcionalidades propostas.
 
-#### 🧠 Hard Skills — Habilidades Técnicas
+#### Hard Skills — Habilidades Técnicas
 
 - Python
 - Flask
@@ -88,14 +88,14 @@ Minhas principais atividades foram:
 - Git e GitHub
 - Figma
 
-#### 🤝 Soft Skills — Habilidades Interpessoais
+#### Soft Skills — Habilidades Interpessoais
 
 - **Comunicação:** mantive o diálogo entre os integrantes da equipe, compartilhando informações e alinhando expectativas para contribuir com a entrega das funcionalidades solicitadas.
 - **Trabalho em equipe:** colaborei com pessoas que possuíam opiniões diferentes, buscando pontos em comum e soluções que favorecessem o desenvolvimento conjunto.
 - **Gestão do tempo:** planejei a execução das tarefas considerando os prazos e as demais responsabilidades, buscando manter as entregas organizadas.
 - **Iniciativa:** mantive-me à disposição para apoiar a equipe e assumir atividades necessárias ao andamento do projeto.
 
-#### 🔗 Repositório
+#### Repositório
 
 [**Acessar o repositório do projeto**](https://github.com/Omega-Tech-API/API)
 
@@ -105,7 +105,7 @@ Minhas principais atividades foram:
 
 <br>
 
-### 📌 2º Semestre — Equipe S.U.L (IDE com Inteligência Artificial)
+### 2º Semestre — Equipe S.U.L (IDE com Inteligência Artificial)
 
 **Instituição:** Fatec
 
@@ -115,15 +115,15 @@ Minhas principais atividades foram:
 
 <!-- 📸 Inserir aqui uma imagem ou captura de tela do projeto -->
 
-#### 🎯 Desafio
+#### Desafio
 
 Embora muitos desenvolvedores utilizem o ChatGPT e outros modelos de linguagem (LLMs) para criar software, a interface de chatbot não é a mais adequada para esse tipo de tarefa. O desafio era criar uma IDE que integrasse a IA ao próprio fluxo de desenvolvimento, ajudando o desenvolvedor a entender melhor o ciclo de desenvolvimento de software.
 
-#### 💡 Solução Desenvolvida
+#### Solução Desenvolvida
 
 A equipe desenvolveu uma IDE em Java integrada a um modelo de linguagem executado localmente com o Ollama. A aplicação permite escrever ou importar código Java (.txt ou .java), compilar e executar o código com a saída exibida em um terminal, gerar e executar testes unitários com análise dos resultados pela IA e receber sugestões de melhoria do código. Também foram desenvolvidos o histórico de prompts e respostas, a tela de ajuda e o manual de uso.
 
-#### 💻 Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 
 - **Java:** desenvolvimento da aplicação e de suas funcionalidades.
 - **Ollama e Ollama4j:** execução do modelo de linguagem local e integração da IA com a aplicação Java.
@@ -132,7 +132,7 @@ A equipe desenvolveu uma IDE em Java integrada a um modelo de linguagem executad
 - **Jira:** organização do backlog e acompanhamento das sprints.
 - **Git e GitHub:** controle de versão e colaboração durante o desenvolvimento.
 
-#### 👨‍💻 Minhas Contribuições
+#### Minhas Contribuições
 
 Atuei como **Product Owner**, sendo o principal ponto de contato com o cliente, e também participei do desenvolvimento da aplicação.
 
@@ -144,7 +144,7 @@ Minhas principais atividades foram:
 - **Desenvolvimento da interface:** trabalhei nos arquivos .xml da interface da IDE e em funcionalidades como o terminal de respostas, controlando quando ele é exibido ou ocultado.
 - **Integração com a IA:** implementei o retorno das mensagens do agente de IA na aplicação, utilizando a biblioteca Ollama4j.
 
-#### 🧠 Hard Skills — Habilidades Técnicas
+#### Hard Skills — Habilidades Técnicas
 
 - Java
 - Interfaces gráficas em Java (arquivos .xml)
@@ -154,14 +154,14 @@ Minhas principais atividades foram:
 - Figma
 - Git e GitHub
 
-#### 🤝 Soft Skills — Habilidades Interpessoais
+#### Soft Skills — Habilidades Interpessoais
 
 - **Negociação:** mantive negociações constantes com o cliente, equilibrando as solicitações com a capacidade da equipe e os prazos das sprints.
 - **Tomada de decisão:** defini prioridades e tomei decisões sobre o produto, buscando entregar o maior valor possível em cada sprint.
 - **Comunicação:** fiz a ponte entre o cliente e a equipe de desenvolvimento, garantindo que as necessidades fossem compreendidas por todos.
 - **Organização:** mantive a documentação e o backlog atualizados, facilitando o acompanhamento do projeto.
 
-#### 🔗 Repositório
+#### Repositório
 
 [**Acessar o repositório do projeto**](https://github.com/Equipe-SUL/IDE-SUL)
 
@@ -171,7 +171,7 @@ Minhas principais atividades foram:
 
 <br>
 
-### 📌 3º Semestre — Gestão de Tráfego e Viaturas
+### 3º Semestre — Gestão de Tráfego e Viaturas
 
 **Instituição:** Fatec
 
@@ -181,15 +181,15 @@ Minhas principais atividades foram:
 
 <!-- 📸 Inserir aqui uma imagem ou captura de tela do projeto -->
 
-#### 🎯 Desafio
+#### Desafio
 
 O controle de abastecimento do IPEM era realizado de forma manual, por meio de planilhas físicas e digitais. Esse processo gerava retrabalho e lentidão no envio das informações para o sistema oficial (SGI). O desafio era digitalizar esse fluxo e garantir a integridade dos dados registrados.
 
-#### 💡 Solução Desenvolvida
+#### Solução Desenvolvida
 
 A equipe desenvolveu uma aplicação web em que os técnicos registram os deslocamentos e abastecimentos em tempo real, e os administradores cadastram viaturas e técnicos, validam a quilometragem, acompanham indicadores de consumo em um dashboard e exportam os dados mensais para facilitar o envio ao SGI.
 
-#### 💻 Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 
 - **Java:** desenvolvimento do backend e das regras de negócio.
 - **Spring Boot:** construção da API REST e organização da aplicação em camadas.
@@ -201,7 +201,7 @@ A equipe desenvolveu uma aplicação web em que os técnicos registram os desloc
 - **Trello:** organização das tarefas e acompanhamento das sprints.
 - **Git e GitHub:** controle de versão e colaboração durante o desenvolvimento.
 
-#### 👨‍💻 Minhas Contribuições
+#### Minhas Contribuições
 
 Atuei como **desenvolvedor**, participando de praticamente todas as camadas da aplicação, do banco de dados à interface.
 
@@ -213,7 +213,7 @@ Minhas principais atividades foram:
 - **Uso de Docker:** utilizei o Docker pela primeira vez para padronizar o ambiente do projeto.
 - **Colaboração com a equipe:** participei das discussões e do desenvolvimento das funcionalidades entregues ao cliente.
 
-#### 🧠 Hard Skills — Habilidades Técnicas
+#### Hard Skills — Habilidades Técnicas
 
 - Java
 - Spring Boot
@@ -224,14 +224,14 @@ Minhas principais atividades foram:
 - Git e GitHub
 - Trello
 
-#### 🤝 Soft Skills — Habilidades Interpessoais
+#### Soft Skills — Habilidades Interpessoais
 
 - **Adaptabilidade:** aprendi novas tecnologias, como Spring Boot e Docker, durante o próprio desenvolvimento do projeto.
 - **Proatividade:** atuei em diferentes partes da aplicação, do banco de dados ao frontend, conforme a necessidade da equipe.
 - **Trabalho em equipe:** colaborei com uma equipe maior, integrando o meu trabalho ao dos demais integrantes.
 - **Foco no cliente:** desenvolvi as funcionalidades pensando no uso real pelos técnicos e administradores do IPEM.
 
-#### 🔗 Repositório
+#### Repositório
 
 [**Acessar o repositório do projeto**](https://github.com/AtlazDB/Atlaz)
 
@@ -241,7 +241,7 @@ Minhas principais atividades foram:
 
 <br>
 
-### 📌 4º Semestre — GeoRural DataHub
+### 4º Semestre — GeoRural DataHub
 
 **Instituição:** Fatec
 
@@ -251,15 +251,15 @@ Minhas principais atividades foram:
 
 <!-- 📸 Inserir aqui uma imagem ou captura de tela do projeto -->
 
-#### 🎯 Desafio
+#### Desafio
 
 As informações sobre imóveis rurais vêm de diferentes fontes de dados, públicas e privadas, com formatos, níveis de qualidade e atualizações diferentes. Isso dificulta a rastreabilidade e a auditoria dos dados, pois não é simples identificar quais fontes, versões e regras participaram do cálculo de um indicador.
 
-#### 💡 Solução Desenvolvida
+#### Solução Desenvolvida
 
 A equipe desenvolveu o **GeoRural DataHub**, uma plataforma que centraliza a ingestão e a governança de dados territoriais em um banco Oracle com suporte a dados geoespaciais. A solução permite cadastrar fontes de dados com coleta automática, definir regras de tratamento e validação das colunas, tratar os registros rejeitados, visualizar os imóveis rurais em mapa e consultar indicadores ambientais, como Reserva Legal, focos de calor, vegetação nativa e embargos, com o histórico das versões e da origem de cada dado (*data lineage*).
 
-#### 💻 Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 
 - **Java:** desenvolvimento do backend e das regras de negócio.
 - **Spring Boot:** construção da API REST, com Spring Data JPA, Hibernate Spatial e Spring Security.
@@ -272,7 +272,7 @@ A equipe desenvolveu o **GeoRural DataHub**, uma plataforma que centraliza a ing
 - **Vue.js, Pinia, Leaflet e Chart.js:** interface web, mapas e gráficos dos indicadores.
 - **Git e GitHub:** controle de versão, com repositório principal e submódulos para o backend e o frontend.
 
-#### 👨‍💻 Minhas Contribuições
+#### Minhas Contribuições
 
 Atuei como **Scrum Master**, sendo responsável pela organização e condução da equipe, e também participei do desenvolvimento, principalmente no backend.
 
@@ -287,7 +287,7 @@ Minhas principais atividades foram:
 - **Entregas e documentação:** fiz a integração das branches de desenvolvimento para a principal a cada entrega, preparei as apresentações das Sprint Reviews com o cliente e mantive a documentação do projeto.
 - **Arquitetura:** ajudei a equipe a entender o funcionamento da arquitetura em nuvem do projeto (máquinas virtuais, Airflow, DAGs, data lake e buckets).
 
-#### 🧠 Hard Skills — Habilidades Técnicas
+#### Hard Skills — Habilidades Técnicas
 
 - Java
 - Spring Boot, Spring Data JPA e Hibernate Spatial
@@ -301,21 +301,21 @@ Minhas principais atividades foram:
 - Git, GitHub e submódulos
 - Scrum
 
-#### 🤝 Soft Skills — Habilidades Interpessoais
+#### Soft Skills — Habilidades Interpessoais
 
 - **Liderança:** organizei e conduzi a equipe ao longo das sprints, mantendo o foco nas entregas para o cliente.
 - **Comunicação:** conduzi reuniões e apresentações, alinhando a equipe, o Product Owner e o cliente.
 - **Organização:** mantive o backlog, as tarefas e a documentação atualizados e coordenei as entregas a cada sprint.
 - **Apoio à equipe:** ajudei os colegas a entender a arquitetura do projeto e revisei o trabalho antes da integração do código.
 
-#### 🔗 Repositório
+#### Repositório
 
 [**Acessar o repositório do projeto**](https://github.com/AtlazDB/GeoRural-DataHub)
 
 ---
 
-## 📬 Contatos
+## Contatos
 
-- 🐙 **GitHub:** [GabrielRocha-27](https://github.com/GabrielRocha-27)
-- 💼 **LinkedIn:** [gabriel-rocha-wk27](https://www.linkedin.com/in/gabriel-rocha-wk27)
-- 📧 **E-mail:** [gabrielrocha.wk27@gmail.com](mailto:gabrielrocha.wk27@gmail.com)
+- **GitHub:** [GabrielRocha-27](https://github.com/GabrielRocha-27)
+- **LinkedIn:** [gabriel-rocha-wk27](https://www.linkedin.com/in/gabriel-rocha-wk27)
+- **E-mail:** [gabrielrocha.wk27@gmail.com](mailto:gabrielrocha.wk27@gmail.com)
