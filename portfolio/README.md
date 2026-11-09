@@ -4,11 +4,11 @@
 
 # ✍️ Sobre Mim
 
-Comecei minha trajetória acadêmica na **Fatec**, no curso de **Análise e Desenvolvimento de Sistemas (ADS)**, onde tive contato com linguagens de marcação, como HTML e CSS, com o framework Flask e com os fundamentos da lógica de programação.
+Comecei minha trajetória acadêmica na Fatec, no curso de Análise e Desenvolvimento de Sistemas (ADS), onde tive contato com linguagens de marcação, como HTML e CSS, com o framework Flask e com os fundamentos da lógica de programação.
 
-Posteriormente, migrei para o curso de **Banco de Dados**, buscando direcionar minha formação para o desenvolvimento backend, a gestão e a manipulação de dados. Ao longo dessa jornada, ampliei meus conhecimentos em linguagens de programação, bancos de dados e desenvolvimento de sistemas.
+Posteriormente, migrei para o curso de Banco de Dados, buscando direcionar minha formação para o desenvolvimento backend, a gestão e a manipulação de dados. Ao longo dessa jornada, ampliei meus conhecimentos em linguagens de programação, bancos de dados e desenvolvimento de sistemas.
 
-Durante a graduação, participei de duas **Maratonas Internas de Programação da Fatec**, experiências que fortaleceram minha capacidade de resolver problemas, colaborar em equipe e desenvolver soluções de forma estruturada.
+Durante a graduação, participei de duas Maratonas Internas de Programação da Fatec, experiências que fortaleceram minha capacidade de resolver problemas, colaborar em equipe e desenvolver soluções de forma estruturada.
 
 Atualmente, sigo me aprofundando em desenvolvimento de software, bancos de dados e infraestrutura, buscando colocar em prática o que aprendo e evoluir continuamente como profissional da área de tecnologia.
 
