@@ -2,7 +2,7 @@
   <img src="https://github.com/GabrielRocha-27.png" alt="Foto de perfil de Gabriel Henrique" width="180" />
 </p>
 
-# ✍️ Sobre Mim
+# Sobre Mim
 
 Comecei minha trajetória acadêmica na Fatec, no curso de Análise e Desenvolvimento de Sistemas (ADS), onde tive contato com linguagens de marcação, como HTML e CSS, com o framework Flask e com os fundamentos da lógica de programação.
 
